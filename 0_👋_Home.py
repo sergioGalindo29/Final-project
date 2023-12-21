@@ -4,18 +4,18 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Sergio Galindo Portfolio",
     page_icon="📊",
 )
 
 
 # ----- Left menu -----
 with st.sidebar:
-    st.image("eae_img.png", width=200)
+    st.image("eae_img.png", width = 200)
     st.header("Introduction to Programming Languages for Data")
     st.write("###")
     st.write("***Final Project - Dec 2023***")
-    st.write("**Author:** <Your Name>")
+    st.write("**Author:** Sergio Galindo")
     st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
@@ -24,7 +24,7 @@ st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">�
 
 
 # ----- Profile image file -----
-profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "Sergio.jpg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "Master student in Big Data & Analytics"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,19 +51,19 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I am a Master student in Big Data & Analytics 
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: I have my bachelor degree in Cyber criminology at Florida State University, i have some years of experience, i worked for the Bolivian police, Banco Nacional de Bolivia as sales person and also as cyber criminology analyst
 
-- ❤️ <Your Passion and/or Interests>
+- ❤️ I am very passionate for tennis, horses
 
-- 🤖 <Your Personal Projects>
+- 🤖 I have some big projects for my live, one of the biggest one is to have my own company back in my country
 
-- 🏂 <Your Hobbies>
+- 🏂 Tennis, Food
 
-- 📫 How to reach me: <Your Email>
+- 📫 How to reach me: sergio_galindo29@hotmail.com
 
 - 🏠 Barcelona
 """)
 
-# Feel free to add other points like your Linkedin, Github, Social Media, etc.
+# Feel free to add other points like your Linkedin, Github, Social Media, etc
