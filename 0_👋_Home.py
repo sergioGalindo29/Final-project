@@ -51,19 +51,19 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a Master student in Big Data & Analytics 
+- 🧑‍💻 I am a cyber criminologist doing my master's degree in Big data and analytics
 
-- 🛩️ prev: I have my bachelor degree in Cyber criminology at Florida State University, i have some years of experience, i worked for the Bolivian police, Banco Nacional de Bolivia as sales person and also as cyber criminology analyst
+- 🛩️ Previous experience: I worked on sales and IT team for EnergyBox, as a Cyber Criminology analyst for the Bolivian police, and information security and cyber security for Banco Nacional de Bolivia
 
-- ❤️ I am very passionate for tennis, horses
+- ❤️ My biggest passion is traveling around the world and learning about different cultures 
 
-- 🤖 I have some big projects for my live, one of the biggest one is to have my own company back in my country
+- 🤖 My personal goals are to work with banking and at some point have my own company with a focus on data analysis
 
-- 🏂 Tennis, Food
+- 🏂 My hobbies are: Tennis, Horse riding, food
 
-- 📫 How to reach me: sergio_galindo29@hotmail.com
+- 📫 sergio_galindo29@hotmail.com
 
-- 🏠 Barcelona
+- 🏠 Barcelona Spain
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc
